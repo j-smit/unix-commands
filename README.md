@@ -8,6 +8,8 @@
 - `exit`: **Ends your work on the UNIX system**
 - `CTRL-l or clear`: **Clear the screen**
 - `CTRL-z`: **Pause the currently running program**
+- `CTRL-a`: **Jump back to first character in line** 
+- `CTRL-e`: **Jump forward to last character in line** 
 
 ##File Commands
 
