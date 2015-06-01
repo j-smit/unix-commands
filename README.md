@@ -44,4 +44,5 @@
 ###Printing
 
 ##Directory Commands
-- `cd <dictory name>`: **Go to the directory **
+- `cd <dicetory name>`: **Go to the directory **
+- `rm -r <directory name>`: **Remove a full directory**
