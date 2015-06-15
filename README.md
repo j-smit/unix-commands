@@ -47,15 +47,11 @@
 ###Printing
 
 ##Directory Commands
-<<<<<<< HEAD
 - `cd <directory name>`: **Go to the directory **
+- `rm -r <directory name>`: **Remove a directory with files (not hidden files)**
+- `rm -rf <directory name>`: **Remove a directory with all files (also hidden)**
 - `open .`: **Open current directory**
 
 ##Specials
-- Copy all jpg images in directory to another directory
-	`cp *.JPG <directory name>`
+- `cp *.JPG <directory name>`: **Copy all jpg images in directory to another directory**
 
-=======
-- `cd <dicetory name>`: **Go to the directory **
-- `rm -r <directory name>`: **Remove a full directory**
->>>>>>> c8dd254196fde77ef7f110f9f970f56b43aa9b07
