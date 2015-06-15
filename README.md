@@ -8,6 +8,8 @@
 - `exit`: **Ends your work on the UNIX system**
 - `CTRL-l or clear`: **Clear the screen**
 - `CTRL-z`: **Pause the currently running program**
+- `CTRL-a`: **Jump back to first character in line** 
+- `CTRL-e`: **Jump forward to last character in line** 
 
 ##File Commands
 
@@ -45,6 +47,7 @@
 ###Printing
 
 ##Directory Commands
+<<<<<<< HEAD
 - `cd <directory name>`: **Go to the directory **
 - `open .`: **Open current directory**
 
@@ -52,3 +55,7 @@
 - Copy all jpg images in directory to another directory
 	`cp *.JPG <directory name>`
 
+=======
+- `cd <dicetory name>`: **Go to the directory **
+- `rm -r <directory name>`: **Remove a full directory**
+>>>>>>> c8dd254196fde77ef7f110f9f970f56b43aa9b07
