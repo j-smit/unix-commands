@@ -16,6 +16,9 @@
 - `ls -l`: **lists your files in 'long format'**, which contains lots of useful information (exact size , owner etc).
 - `ls -a`: **lists all files**, including the ones whose filenames begin in a dot, which you do not always want to see.
 
+###Create file
+- `touch <filename`: **create or update file**
+
 
 ###File
 - `more <filename>`: **shows the first part of a file**, just as much as will fit on one screen. Just hit the space bar to see more or q to quit. You can use /pattern to search for a pattern.
@@ -26,7 +29,7 @@
 - `rm -i <filename>`:  **removes a file but before ask for confirmation** 
 - `diff <filename1> <filename2>`: **compares files, and shows where they differ**
 - `wc <filename>`: **tells you how many lines, words, and characters there are in a file**
-- `chmod options <filename>`: **lets you change the read, write, and execute permissions on your files.**
+- `chmod options <filename>`: **lets you change the read, write, and execute permissions on your files.** [chmod settings](http://www.computerhope.com/unix/uchmod.htm)
 
 
 ###Find
@@ -42,4 +45,10 @@
 ###Printing
 
 ##Directory Commands
-- `cd <dictory name>`: **Go to the directory **
+- `cd <directory name>`: **Go to the directory **
+- `open .`: **Open current directory**
+
+##Specials
+- Copy all jpg images in directory to another directory
+	`cp *.JPG <directory name>`
+
