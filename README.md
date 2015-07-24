@@ -21,7 +21,6 @@
 ###Create file
 - `touch <filename`: **create or update file**
 
-
 ###File
 - `more <filename>`: **shows the first part of a file**, just as much as will fit on one screen. Just hit the space bar to see more or q to quit. You can use /pattern to search for a pattern.
 - `emacs <filename>`: **is an editor that lets you create and edit a file**. See the emacs [page](http://mally.stanford.edu/~sr/computing/emacs.html).
@@ -44,7 +43,18 @@
 - `gzcat <filename>`: **look at a gzipped file without gunzip it**. same as `gunzip -c`. 
 - `gzcat <filename> | lpr`: **print it directly**
 
-###Printing
+###List of options commonly used
+
+- **a (all)** — Lists all files in the directory, including hidden files (.filename). The .. and . at the top of your 
+list refer to the parent directory and the current directory, respectively.
+- **l (long)** — Lists details about contents, including permissions (modes), owner, group, size, creation date, 
+whether the file is a link to somewhere else on the system and where its link points.
+- **F (file type)** — Adds a symbol to the end of each listing. These symbols include /, to indicate a directory; @, to 
+indicate a symbolic link to another file; and /*, to indicate an executable file.
+- **r (reverse)** — Lists the contents of the directory in reverse sort order.
+- **R (recursive)** — Lists the contents of all directories below the current directory recursively.
+- **S (size)** — Sorts files by their sizes.
+
 
 ##Directory Commands
 - `cd <directory name>`: **Go to the directory **
